@@ -1,0 +1,17 @@
+﻿<Window x:Class="QRCodeTools.screenshot.CaptureWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      AllowsTransparency="True"
+      WindowStyle="None"
+      Background="Black"
+      Opacity="0.3"
+      WindowState="Maximized"
+      MouseDown="CaptureWindow_MouseDown"
+      MouseMove="CaptureWindow_MouseMove"
+      Topmost="True"
+      Title="CaptureWindow"  Icon="pack://application:,,,/resources/icon.ico">
+
+    <Canvas x:Name="CaptureCanvas">
+
+    </Canvas>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="QRCodeTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QRCodeTools"
+        mc:Ignorable="d"
+        Title="QRCodeTools" Height="120" Width="150" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="pack://application:,,,/resources/icon.ico" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <Button Click="Capture_Btn_Click" Content="&#xE637; Capture" Margin="10,5" FontFamily="pack://application:,,,/resources/#iconfont" Grid.Row="0" Grid.Column="0" x:Name="Capture_Btn" FontSize="20" />
+        <Button Content="Generate" Margin="10,5" FontFamily="pack://application:,,,/resources/#iconfont" Grid.Row="1" Grid.Column="0" x:Name="Create_Btn" FontSize="20" IsEnabled="False" />
+
+    </Grid>
+</Window>
